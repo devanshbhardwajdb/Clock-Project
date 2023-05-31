@@ -1,0 +1,72 @@
+*{
+    background: url(background-6.jpg)no-repeat center;
+    backdrop-filter: blur(10px);
+    background-size: 100%;
+}
+
+
+#clockcontainer {
+    margin: auto;
+    position: relative;
+    
+
+    border: 2px solid black;
+    border-style: dotted;
+    border-radius: 500px;
+    height: 40vw;
+    width: 40vw;
+    background: url(1.png) no-repeat;
+    background-size: 100%;
+    backdrop-filter: blur(10px);
+}
+
+#hour,
+#minute,
+#second,#circle {
+    margin: auto;
+
+    position: absolute;
+    background: black;
+    transform-origin: bottom;
+
+
+
+}
+
+#hour {
+    width: 1.1%;
+    height: 15%;
+    top: 35.7%;
+    left: 49.55%;
+    background-size: 58%;
+    border-radius: 10px;
+}
+
+
+#minute {
+    width: 1.1%;
+    height: 24%;
+    top: 26.7%;
+    left: 49.51%;
+    background-size: 58%;
+    border-radius: 10px;
+}
+
+
+#second {
+    width: 1.1%;
+    height: 38%;
+    top: 12.7%;
+    left: 49.6%;
+    background-size: 58%;
+    border-radius: 10px;
+}
+
+#circle{
+    width: 6%;
+    height: 6%;
+    top: 47%;
+    left: 47.5%;
+    background-size: 58%;
+    border-radius: 10000px;
+}
